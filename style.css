@@ -313,7 +313,7 @@ body {
 
 #counthead {
     font-family: "Montserrat", Helvetica, sans-serif;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 0, 0, 0.6);
     font-size: 15pt;
     letter-spacing: 1px;
     margin-left: -300px;
@@ -423,7 +423,7 @@ body {
 
 #scorehead {
     font-family: "Montserrat", Helvetica, sans-serif;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(248, 32, 32, 0.6);
     font-size: 15pt;
     letter-spacing: 1px;
     opacity: 0;

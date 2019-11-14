@@ -126,7 +126,7 @@ input.onfocus = function() {
 }
 
 input.onblur = function() {
-    input.placeholder = "Type the text above to begin...";
+    input.placeholder = "Ingrese la palabra";
 }
 
 function setColors() {

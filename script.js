@@ -183,7 +183,7 @@ function changeLevel(newLevel) {
     currentScroll.style.fontWeight = "bold";
     currentScroll.style.color = "rgba(255, 255, 255, 0.7)";
     var setLevel = level===2?"Coding":level;
-    document.getElementById("message").innerHTML = "Level-" + level.toString();
+    document.getElementById("message").innerHTML = "Nivel-" + Nivel.toString();
     box.style.marginTop = offset.toString() + "px";
 }
 

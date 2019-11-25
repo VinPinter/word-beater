@@ -284,7 +284,7 @@ body {
     font-family: "Montserrat", Helvetica, sans-serif;
     font-size: 13pt;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(204, 0, 0);
     letter-spacing: 1px;
     margin-top: 320px;
     opacity: 0;
@@ -309,6 +309,12 @@ body {
     height: auto;
     margin-top: 50px;
     margin-right: 100px;
+}
+#timeLeft:hover #counthead{color: rgba(17, 1, 1, 0.473);
+
+}
+#timeLeft:hover #secs{color: rgba(17, 1, 1, 0.473);
+
 }
 
 #counthead {
@@ -448,14 +454,21 @@ body {
     margin: 0 100px;
 }
 
+
 #score {
     font-family: "Paytone One", Helvetica, sans-serif;
     color: rgba(184, 29, 29, 0.8);
     font-size: 40pt;
     opacity: 0;
     animation: fade 0.3s ease-in-out 1.5s forwards;
-     
+
 }
+
+#current:hover #score{color: rgba(17, 1, 1, 0.473);
+
+}
+#current:hover #scorehead{color: rgba(17, 1, 1, 0.473);}
+
 
 #highscore {
     font-family: "Paytone One", Helvetica, sans-serif;
@@ -467,11 +480,12 @@ body {
 }
 
 #high:hover #highhead {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(17, 1, 1, 0.473);
+
 }
 
 #high:hover #highscore {
-    color: rgba(255, 255, 255, 0.8);
+color: rgba(17, 1, 1, 0.473);
 }
 
 #graph {
